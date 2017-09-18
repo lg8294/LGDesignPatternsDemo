@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810256C91F6F6D06006E605C /* Subjectt.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256C81F6F6D06006E605C /* Subjectt.m */; };
+		810256CC1F6F6D11006E605C /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256CB1F6F6D11006E605C /* Observer.m */; };
+		810256CF1F6F6D24006E605C /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256CE1F6F6D24006E605C /* ConcreteSubject.m */; };
+		810256D01F6F6D3F006E605C /* Subjectt.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256C81F6F6D06006E605C /* Subjectt.m */; };
+		810256D11F6F6D3F006E605C /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256CB1F6F6D11006E605C /* Observer.m */; };
+		810256D21F6F6D3F006E605C /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256CE1F6F6D24006E605C /* ConcreteSubject.m */; };
+		810256D51F6F6D5D006E605C /* ConcreteObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256D41F6F6D5D006E605C /* ConcreteObserver.m */; };
+		810256D61F6F7554006E605C /* ConcreteObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256D41F6F6D5D006E605C /* ConcreteObserver.m */; };
+		810256DA1F6F980A006E605C /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256D91F6F980A006E605C /* Context.m */; };
+		810256DB1F6F980A006E605C /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256D91F6F980A006E605C /* Context.m */; };
+		810256DE1F6F9825006E605C /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256DD1F6F9825006E605C /* State.m */; };
+		810256DF1F6F9825006E605C /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256DD1F6F9825006E605C /* State.m */; };
+		810256E21F6F9839006E605C /* ConcreteStateA.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256E11F6F9839006E605C /* ConcreteStateA.m */; };
+		810256E31F6F9839006E605C /* ConcreteStateA.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256E11F6F9839006E605C /* ConcreteStateA.m */; };
+		810256E61F6F9849006E605C /* ConcreteStateB.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256E51F6F9849006E605C /* ConcreteStateB.m */; };
+		810256E71F6F9849006E605C /* ConcreteStateB.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256E51F6F9849006E605C /* ConcreteStateB.m */; };
+		810256EB1F6FA08F006E605C /* Contextt.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256EA1F6FA08F006E605C /* Contextt.m */; };
+		810256EC1F6FA08F006E605C /* Contextt.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256EA1F6FA08F006E605C /* Contextt.m */; };
+		810256EF1F6FA09F006E605C /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256EE1F6FA09F006E605C /* Strategy.m */; };
+		810256F01F6FA09F006E605C /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256EE1F6FA09F006E605C /* Strategy.m */; };
+		810256F31F6FA0BB006E605C /* ConcreteStrategyA.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256F21F6FA0BB006E605C /* ConcreteStrategyA.m */; };
+		810256F41F6FA0BB006E605C /* ConcreteStrategyA.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256F21F6FA0BB006E605C /* ConcreteStrategyA.m */; };
+		810256F71F6FA0DA006E605C /* ConcreteStrategyB.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256F61F6FA0DA006E605C /* ConcreteStrategyB.m */; };
+		810256F81F6FA0DA006E605C /* ConcreteStrategyB.m in Sources */ = {isa = PBXBuildFile; fileRef = 810256F61F6FA0DA006E605C /* ConcreteStrategyB.m */; };
 		819EB06B1F6B7B59006A4E97 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EB06A1F6B7B59006A4E97 /* Facade.m */; };
 		819EB06C1F6B7B59006A4E97 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EB06A1F6B7B59006A4E97 /* Facade.m */; };
 		819EB06F1F6B7BAB006A4E97 /* SubSystemA.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EB06E1F6B7BAB006A4E97 /* SubSystemA.m */; };
@@ -96,6 +120,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		810256C71F6F6D06006E605C /* Subjectt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subjectt.h; sourceTree = "<group>"; };
+		810256C81F6F6D06006E605C /* Subjectt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subjectt.m; sourceTree = "<group>"; };
+		810256CA1F6F6D11006E605C /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		810256CB1F6F6D11006E605C /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+		810256CD1F6F6D24006E605C /* ConcreteSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteSubject.h; sourceTree = "<group>"; };
+		810256CE1F6F6D24006E605C /* ConcreteSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteSubject.m; sourceTree = "<group>"; };
+		810256D31F6F6D5D006E605C /* ConcreteObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteObserver.h; sourceTree = "<group>"; };
+		810256D41F6F6D5D006E605C /* ConcreteObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteObserver.m; sourceTree = "<group>"; };
+		810256D81F6F980A006E605C /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		810256D91F6F980A006E605C /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
+		810256DC1F6F9825006E605C /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		810256DD1F6F9825006E605C /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		810256E01F6F9839006E605C /* ConcreteStateA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteStateA.h; sourceTree = "<group>"; };
+		810256E11F6F9839006E605C /* ConcreteStateA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteStateA.m; sourceTree = "<group>"; };
+		810256E41F6F9849006E605C /* ConcreteStateB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteStateB.h; sourceTree = "<group>"; };
+		810256E51F6F9849006E605C /* ConcreteStateB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteStateB.m; sourceTree = "<group>"; };
+		810256E91F6FA08F006E605C /* Contextt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contextt.h; sourceTree = "<group>"; };
+		810256EA1F6FA08F006E605C /* Contextt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contextt.m; sourceTree = "<group>"; };
+		810256ED1F6FA09F006E605C /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		810256EE1F6FA09F006E605C /* Strategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy.m; sourceTree = "<group>"; };
+		810256F11F6FA0BB006E605C /* ConcreteStrategyA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteStrategyA.h; sourceTree = "<group>"; };
+		810256F21F6FA0BB006E605C /* ConcreteStrategyA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteStrategyA.m; sourceTree = "<group>"; };
+		810256F51F6FA0DA006E605C /* ConcreteStrategyB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteStrategyB.h; sourceTree = "<group>"; };
+		810256F61F6FA0DA006E605C /* ConcreteStrategyB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteStrategyB.m; sourceTree = "<group>"; };
 		819EB0691F6B7B59006A4E97 /* Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
 		819EB06A1F6B7B59006A4E97 /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
 		819EB06D1F6B7BAB006A4E97 /* SubSystemA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSystemA.h; sourceTree = "<group>"; };
@@ -195,6 +243,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		810256C61F6F6CEB006E605C /* ObserverPattern */ = {
+			isa = PBXGroup;
+			children = (
+				810256C71F6F6D06006E605C /* Subjectt.h */,
+				810256C81F6F6D06006E605C /* Subjectt.m */,
+				810256CA1F6F6D11006E605C /* Observer.h */,
+				810256CB1F6F6D11006E605C /* Observer.m */,
+				810256CD1F6F6D24006E605C /* ConcreteSubject.h */,
+				810256CE1F6F6D24006E605C /* ConcreteSubject.m */,
+				810256D31F6F6D5D006E605C /* ConcreteObserver.h */,
+				810256D41F6F6D5D006E605C /* ConcreteObserver.m */,
+			);
+			path = ObserverPattern;
+			sourceTree = "<group>";
+		};
+		810256D71F6F97CD006E605C /* StatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				810256D81F6F980A006E605C /* Context.h */,
+				810256D91F6F980A006E605C /* Context.m */,
+				810256DC1F6F9825006E605C /* State.h */,
+				810256DD1F6F9825006E605C /* State.m */,
+				810256E01F6F9839006E605C /* ConcreteStateA.h */,
+				810256E11F6F9839006E605C /* ConcreteStateA.m */,
+				810256E41F6F9849006E605C /* ConcreteStateB.h */,
+				810256E51F6F9849006E605C /* ConcreteStateB.m */,
+			);
+			path = StatePattern;
+			sourceTree = "<group>";
+		};
+		810256E81F6FA07C006E605C /* StrategyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				810256E91F6FA08F006E605C /* Contextt.h */,
+				810256EA1F6FA08F006E605C /* Contextt.m */,
+				810256ED1F6FA09F006E605C /* Strategy.h */,
+				810256EE1F6FA09F006E605C /* Strategy.m */,
+				810256F11F6FA0BB006E605C /* ConcreteStrategyA.h */,
+				810256F21F6FA0BB006E605C /* ConcreteStrategyA.m */,
+				810256F51F6FA0DA006E605C /* ConcreteStrategyB.h */,
+				810256F61F6FA0DA006E605C /* ConcreteStrategyB.m */,
+			);
+			path = StrategyPattern;
+			sourceTree = "<group>";
+		};
 		819EB0681F6B7B47006A4E97 /* FacadePattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +366,9 @@
 		81A211A41F6A303800B0EBD1 = {
 			isa = PBXGroup;
 			children = (
+				810256E81F6FA07C006E605C /* StrategyPattern */,
+				810256D71F6F97CD006E605C /* StatePattern */,
+				810256C61F6F6CEB006E605C /* ObserverPattern */,
 				819EB0A81F6BB9C0006A4E97 /* MediatorPattern */,
 				819EB0971F6BAF22006A4E97 /* CommandPattern */,
 				819EB08A1F6B83B6006A4E97 /* ProxyPattern */,
@@ -467,20 +563,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810256DE1F6F9825006E605C /* State.m in Sources */,
 				819EB0911F6B83DB006A4E97 /* Proxy.m in Sources */,
 				81A211BD1F6A30E400B0EBD1 /* Product.m in Sources */,
 				819EB0A41F6BB39B006A4E97 /* Command.m in Sources */,
 				819EB0771F6B7BC4006A4E97 /* SubSystemC.m in Sources */,
+				810256F31F6FA0BB006E605C /* ConcreteStrategyA.m in Sources */,
 				81A211E91F6A70D100B0EBD1 /* Abstraction.m in Sources */,
+				810256E61F6F9849006E605C /* ConcreteStateB.m in Sources */,
 				819EB0881F6B7F2E006A4E97 /* UnsharedConcreteFlyweight.m in Sources */,
 				81A211FA1F6A799800B0EBD1 /* ConcreteImplementorB.m in Sources */,
 				819EB0841F6B7EA0006A4E97 /* ConcreteFlyweight.m in Sources */,
 				819EB0A51F6BB39B006A4E97 /* ConcreteCommand.m in Sources */,
 				81A211E41F6A6A8000B0EBD1 /* AdapterC.m in Sources */,
+				810256D61F6F7554006E605C /* ConcreteObserver.m in Sources */,
 				819EB0951F6B83E9006A4E97 /* RealSubject.m in Sources */,
 				819EB0A61F6BB39B006A4E97 /* Invoker.m in Sources */,
+				810256DA1F6F980A006E605C /* Context.m in Sources */,
 				819EB0AB1F6BBA0A006A4E97 /* Mediator.m in Sources */,
 				819EB0801F6B7E11006A4E97 /* Flyweight.m in Sources */,
+				810256F71F6FA0DA006E605C /* ConcreteStrategyB.m in Sources */,
+				810256D01F6F6D3F006E605C /* Subjectt.m in Sources */,
 				819EB0731F6B7BBA006A4E97 /* SubSystemB.m in Sources */,
 				819EB0BF1F6BC083006A4E97 /* ConcreteColleagueB.m in Sources */,
 				81A211B11F6A303800B0EBD1 /* main.m in Sources */,
@@ -492,10 +595,15 @@
 				81A211BA1F6A30AD00B0EBD1 /* Director.m in Sources */,
 				819EB0B71F6BBA3E006A4E97 /* ConcreteColleagueA.m in Sources */,
 				819EB0B31F6BBA27006A4E97 /* Colleague.m in Sources */,
+				810256EB1F6FA08F006E605C /* Contextt.m in Sources */,
+				810256EF1F6FA09F006E605C /* Strategy.m in Sources */,
 				81A211D81F6A62F300B0EBD1 /* Adapter.m in Sources */,
 				81A211C31F6A317600B0EBD1 /* ConcreteBuilderA.m in Sources */,
 				819EB08D1F6B83CC006A4E97 /* Subject.m in Sources */,
+				810256E21F6F9839006E605C /* ConcreteStateA.m in Sources */,
 				81A212071F6A7CEC00B0EBD1 /* ConcreteComponentt.m in Sources */,
+				810256D11F6F6D3F006E605C /* Observer.m in Sources */,
+				810256D21F6F6D3F006E605C /* ConcreteSubject.m in Sources */,
 				81A211F61F6A715E00B0EBD1 /* ConcreteImplementorA.m in Sources */,
 				819EB0BB1F6BBA4F006A4E97 /* ConcreteMediator.m in Sources */,
 				819EB0A71F6BB39B006A4E97 /* Receiver.m in Sources */,
@@ -511,20 +619,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810256DF1F6F9825006E605C /* State.m in Sources */,
 				819EB0921F6B83DB006A4E97 /* Proxy.m in Sources */,
 				81A211D21F6A54F800B0EBD1 /* Product.m in Sources */,
 				819EB0781F6B7BC4006A4E97 /* SubSystemC.m in Sources */,
 				81A211EA1F6A70D100B0EBD1 /* Abstraction.m in Sources */,
+				810256F41F6FA0BB006E605C /* ConcreteStrategyA.m in Sources */,
 				819EB0891F6B7F2E006A4E97 /* UnsharedConcreteFlyweight.m in Sources */,
+				810256E71F6F9849006E605C /* ConcreteStateB.m in Sources */,
 				81A211FB1F6A799800B0EBD1 /* ConcreteImplementorB.m in Sources */,
 				819EB0851F6B7EA0006A4E97 /* ConcreteFlyweight.m in Sources */,
 				81A211E51F6A6A8000B0EBD1 /* AdapterC.m in Sources */,
 				819EB09D1F6BAF84006A4E97 /* ConcreteCommand.m in Sources */,
 				819EB0961F6B83E9006A4E97 /* RealSubject.m in Sources */,
+				810256D51F6F6D5D006E605C /* ConcreteObserver.m in Sources */,
 				819EB0811F6B7E11006A4E97 /* Flyweight.m in Sources */,
 				819EB0A01F6BAFA8006A4E97 /* Invoker.m in Sources */,
+				810256DB1F6F980A006E605C /* Context.m in Sources */,
 				819EB0AC1F6BBA0A006A4E97 /* Mediator.m in Sources */,
 				819EB0741F6B7BBA006A4E97 /* SubSystemB.m in Sources */,
+				810256F81F6FA0DA006E605C /* ConcreteStrategyB.m in Sources */,
+				810256C91F6F6D06006E605C /* Subjectt.m in Sources */,
 				81A211D41F6A54F800B0EBD1 /* ConcreteBuilderA.m in Sources */,
 				819EB0C01F6BC083006A4E97 /* ConcreteColleagueB.m in Sources */,
 				81A211EE1F6A70E800B0EBD1 /* RefinedAbstraction.m in Sources */,
@@ -536,10 +651,15 @@
 				81A211CB1F6A34A800B0EBD1 /* DesignPatternsDemoTest.m in Sources */,
 				819EB0B81F6BBA3E006A4E97 /* ConcreteColleagueA.m in Sources */,
 				819EB0B41F6BBA27006A4E97 /* Colleague.m in Sources */,
+				810256EC1F6FA08F006E605C /* Contextt.m in Sources */,
+				810256F01F6FA09F006E605C /* Strategy.m in Sources */,
 				81A211D91F6A62F300B0EBD1 /* Adapter.m in Sources */,
 				81A211D11F6A54F800B0EBD1 /* Director.m in Sources */,
 				819EB08E1F6B83CC006A4E97 /* Subject.m in Sources */,
+				810256E31F6F9839006E605C /* ConcreteStateA.m in Sources */,
 				81A212081F6A7CEC00B0EBD1 /* ConcreteComponentt.m in Sources */,
+				810256CC1F6F6D11006E605C /* Observer.m in Sources */,
+				810256CF1F6F6D24006E605C /* ConcreteSubject.m in Sources */,
 				81A211F71F6A715E00B0EBD1 /* ConcreteImplementorA.m in Sources */,
 				819EB0BC1F6BBA4F006A4E97 /* ConcreteMediator.m in Sources */,
 				819EB0A31F6BAFC2006A4E97 /* Receiver.m in Sources */,

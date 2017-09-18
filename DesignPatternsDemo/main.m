@@ -46,6 +46,18 @@
 #import "ConcreteColleagueA.h"
 #import "ConcreteColleagueB.h"
 
+// 观察者模式
+#import "ConcreteObserver.h"
+#import "ConcreteSubject.h"
+
+// 状态模式
+#import "Context.h"
+
+// 策略模式
+#import "Contextt.h"
+#import "ConcreteStrategyA.h"
+#import "ConcreteStrategyB.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -126,6 +138,7 @@ int main(int argc, const char * argv[]) {
         [pInvoker call];
          */
         
+        /* 中介者模式
         ConcreteColleagueA *pa = [[ConcreteColleagueA alloc] init];
         ConcreteColleagueB *pb = [[ConcreteColleagueB alloc] init];
         ConcreteMediator *pm = [[ConcreteMediator alloc] init];
@@ -136,6 +149,42 @@ int main(int argc, const char * argv[]) {
         [pa sendMsg:@"hello,i am a" to:@"B"];
         // 从 B 发送消息到 A
         [pb sendMsg:@"hello,i am b" to:@"A"];
+         */
+        
+        
+        /* 观察者模式
+        ConcreteSubject *subject = [[ConcreteSubject alloc] init];
+        ConcreteObserver * objA = [[ConcreteObserver alloc] initWithName:@"A"];
+        ConcreteObserver *objB = [[ConcreteObserver alloc] initWithName:@"B"];
+        
+        [subject attachObj:objA];
+        [subject attachObj:objB];
+        
+        subject.state = @"1";
+        [subject notify];
+        NSLog(@"-----------------------");
+        [subject detachObj:objB];
+        subject.state = @"2";
+        [subject notify];
+         */
+        
+        
+        /* 状态模式
+        Context *c = [[Context alloc] init];
+        [c request];
+        [c request];
+        [c request];
+         */
+        
+        
+        Strategy *s1 = [[ConcreteStrategyA alloc] init];
+        Strategy *s2 = [[ConcreteStrategyB alloc] init];
+        Contextt *cxt = [[Contextt alloc] init];
+        cxt.strategy = s1;
+        [cxt algorithm];
+        
+        cxt.strategy = s2;
+        [cxt algorithm];
     }
     return 0;
 }
