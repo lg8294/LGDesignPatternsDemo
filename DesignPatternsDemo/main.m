@@ -176,7 +176,7 @@ int main(int argc, const char * argv[]) {
         [c request];
          */
         
-        
+        /*策略模式 */
         Strategy *s1 = [[ConcreteStrategyA alloc] init];
         Strategy *s2 = [[ConcreteStrategyB alloc] init];
         Contextt *cxt = [[Contextt alloc] init];
