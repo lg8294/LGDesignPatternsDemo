@@ -10,4 +10,8 @@
 
 @implementation DatabaseLog
 
+- (void)writeLog:(NSString *)log {
+    NSLog(@"写日志到数据库中：%@", log);
+}
+
 @end

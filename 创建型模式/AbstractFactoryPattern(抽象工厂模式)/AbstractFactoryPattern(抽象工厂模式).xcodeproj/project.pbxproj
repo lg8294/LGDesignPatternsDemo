@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB53E443239E577F00610BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E442239E577F00610BC1 /* main.m */; };
+		CB53E44C239E57D000610BC1 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E44B239E57D000610BC1 /* AbstractFactory.m */; };
+		CB53E44F239E57E300610BC1 /* AbstractProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E44E239E57E300610BC1 /* AbstractProductA.m */; };
+		CB53E452239E57EE00610BC1 /* AbstractProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E451239E57EE00610BC1 /* AbstractProductB.m */; };
+		CB53E457239E58AB00610BC1 /* ConcreteFactory1.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E456239E58AB00610BC1 /* ConcreteFactory1.m */; };
+		CB53E45A239E58C600610BC1 /* ProductA1.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E459239E58C600610BC1 /* ProductA1.m */; };
+		CB53E45D239E58D700610BC1 /* ProductB1.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E45C239E58D700610BC1 /* ProductB1.m */; };
+		CB53E460239E58F400610BC1 /* ProductB2.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E45F239E58F400610BC1 /* ProductB2.m */; };
+		CB53E463239E590800610BC1 /* ProductA2.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E462239E590800610BC1 /* ProductA2.m */; };
+		CB53E466239E592100610BC1 /* ConcreteFactory2.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E465239E592100610BC1 /* ConcreteFactory2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB53E43D239E577F00610BC1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB53E43F239E577F00610BC1 /* AbstractFactoryPattern(抽象工厂模式) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AbstractFactoryPattern(抽象工厂模式)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB53E442239E577F00610BC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB53E44A239E57D000610BC1 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		CB53E44B239E57D000610BC1 /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		CB53E44D239E57E300610BC1 /* AbstractProductA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractProductA.h; sourceTree = "<group>"; };
+		CB53E44E239E57E300610BC1 /* AbstractProductA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractProductA.m; sourceTree = "<group>"; };
+		CB53E450239E57EE00610BC1 /* AbstractProductB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractProductB.h; sourceTree = "<group>"; };
+		CB53E451239E57EE00610BC1 /* AbstractProductB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractProductB.m; sourceTree = "<group>"; };
+		CB53E455239E58AB00610BC1 /* ConcreteFactory1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteFactory1.h; sourceTree = "<group>"; };
+		CB53E456239E58AB00610BC1 /* ConcreteFactory1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteFactory1.m; sourceTree = "<group>"; };
+		CB53E458239E58C600610BC1 /* ProductA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductA1.h; sourceTree = "<group>"; };
+		CB53E459239E58C600610BC1 /* ProductA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductA1.m; sourceTree = "<group>"; };
+		CB53E45B239E58D700610BC1 /* ProductB1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductB1.h; sourceTree = "<group>"; };
+		CB53E45C239E58D700610BC1 /* ProductB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductB1.m; sourceTree = "<group>"; };
+		CB53E45E239E58F400610BC1 /* ProductB2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductB2.h; sourceTree = "<group>"; };
+		CB53E45F239E58F400610BC1 /* ProductB2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductB2.m; sourceTree = "<group>"; };
+		CB53E461239E590800610BC1 /* ProductA2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductA2.h; sourceTree = "<group>"; };
+		CB53E462239E590800610BC1 /* ProductA2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductA2.m; sourceTree = "<group>"; };
+		CB53E464239E592100610BC1 /* ConcreteFactory2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteFactory2.h; sourceTree = "<group>"; };
+		CB53E465239E592100610BC1 /* ConcreteFactory2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteFactory2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB53E43C239E577F00610BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB53E436239E577F00610BC1 = {
+			isa = PBXGroup;
+			children = (
+				CB53E449239E57B200610BC1 /* Lib */,
+				CB53E441239E577F00610BC1 /* AbstractFactoryPattern(抽象工厂模式) */,
+				CB53E440239E577F00610BC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB53E440239E577F00610BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB53E43F239E577F00610BC1 /* AbstractFactoryPattern(抽象工厂模式) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB53E441239E577F00610BC1 /* AbstractFactoryPattern(抽象工厂模式) */ = {
+			isa = PBXGroup;
+			children = (
+				CB53E442239E577F00610BC1 /* main.m */,
+			);
+			path = "AbstractFactoryPattern(抽象工厂模式)";
+			sourceTree = "<group>";
+		};
+		CB53E449239E57B200610BC1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				CB53E454239E580600610BC1 /* Concrete2 */,
+				CB53E453239E57F800610BC1 /* Concrete1 */,
+				CB53E44A239E57D000610BC1 /* AbstractFactory.h */,
+				CB53E44B239E57D000610BC1 /* AbstractFactory.m */,
+				CB53E44D239E57E300610BC1 /* AbstractProductA.h */,
+				CB53E44E239E57E300610BC1 /* AbstractProductA.m */,
+				CB53E450239E57EE00610BC1 /* AbstractProductB.h */,
+				CB53E451239E57EE00610BC1 /* AbstractProductB.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		CB53E453239E57F800610BC1 /* Concrete1 */ = {
+			isa = PBXGroup;
+			children = (
+				CB53E455239E58AB00610BC1 /* ConcreteFactory1.h */,
+				CB53E456239E58AB00610BC1 /* ConcreteFactory1.m */,
+				CB53E458239E58C600610BC1 /* ProductA1.h */,
+				CB53E459239E58C600610BC1 /* ProductA1.m */,
+				CB53E45B239E58D700610BC1 /* ProductB1.h */,
+				CB53E45C239E58D700610BC1 /* ProductB1.m */,
+			);
+			path = Concrete1;
+			sourceTree = "<group>";
+		};
+		CB53E454239E580600610BC1 /* Concrete2 */ = {
+			isa = PBXGroup;
+			children = (
+				CB53E464239E592100610BC1 /* ConcreteFactory2.h */,
+				CB53E465239E592100610BC1 /* ConcreteFactory2.m */,
+				CB53E461239E590800610BC1 /* ProductA2.h */,
+				CB53E462239E590800610BC1 /* ProductA2.m */,
+				CB53E45E239E58F400610BC1 /* ProductB2.h */,
+				CB53E45F239E58F400610BC1 /* ProductB2.m */,
+			);
+			path = Concrete2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB53E43E239E577F00610BC1 /* AbstractFactoryPattern(抽象工厂模式) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB53E446239E577F00610BC1 /* Build configuration list for PBXNativeTarget "AbstractFactoryPattern(抽象工厂模式)" */;
+			buildPhases = (
+				CB53E43B239E577F00610BC1 /* Sources */,
+				CB53E43C239E577F00610BC1 /* Frameworks */,
+				CB53E43D239E577F00610BC1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AbstractFactoryPattern(抽象工厂模式)";
+			productName = "AbstractFactoryPattern(抽象工厂模式)";
+			productReference = CB53E43F239E577F00610BC1 /* AbstractFactoryPattern(抽象工厂模式) */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB53E437239E577F00610BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = lg;
+				TargetAttributes = {
+					CB53E43E239E577F00610BC1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CB53E43A239E577F00610BC1 /* Build configuration list for PBXProject "AbstractFactoryPattern(抽象工厂模式)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB53E436239E577F00610BC1;
+			productRefGroup = CB53E440239E577F00610BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB53E43E239E577F00610BC1 /* AbstractFactoryPattern(抽象工厂模式) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB53E43B239E577F00610BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB53E452239E57EE00610BC1 /* AbstractProductB.m in Sources */,
+				CB53E463239E590800610BC1 /* ProductA2.m in Sources */,
+				CB53E45A239E58C600610BC1 /* ProductA1.m in Sources */,
+				CB53E457239E58AB00610BC1 /* ConcreteFactory1.m in Sources */,
+				CB53E460239E58F400610BC1 /* ProductB2.m in Sources */,
+				CB53E44C239E57D000610BC1 /* AbstractFactory.m in Sources */,
+				CB53E466239E592100610BC1 /* ConcreteFactory2.m in Sources */,
+				CB53E443239E577F00610BC1 /* main.m in Sources */,
+				CB53E45D239E58D700610BC1 /* ProductB1.m in Sources */,
+				CB53E44F239E57E300610BC1 /* AbstractProductA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB53E444239E577F00610BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB53E445239E577F00610BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB53E447239E577F00610BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E99MC68PJH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB53E448239E577F00610BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E99MC68PJH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB53E43A239E577F00610BC1 /* Build configuration list for PBXProject "AbstractFactoryPattern(抽象工厂模式)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB53E444239E577F00610BC1 /* Debug */,
+				CB53E445239E577F00610BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB53E446239E577F00610BC1 /* Build configuration list for PBXNativeTarget "AbstractFactoryPattern(抽象工厂模式)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB53E447239E577F00610BC1 /* Debug */,
+				CB53E448239E577F00610BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB53E437239E577F00610BC1 /* Project object */;
+}

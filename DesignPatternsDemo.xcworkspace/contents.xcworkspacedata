@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:&#x521b;&#x5efa;&#x578b;&#x6a21;&#x5f0f;/AbstractFactoryPattern(&#x62bd;&#x8c61;&#x5de5;&#x5382;&#x6a21;&#x5f0f;)/AbstractFactoryPattern(&#x62bd;&#x8c61;&#x5de5;&#x5382;&#x6a21;&#x5f0f;).xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x521b;&#x5efa;&#x578b;&#x6a21;&#x5f0f;/FactoryMethodPattern(&#x5de5;&#x5382;&#x65b9;&#x6cd5;&#x6a21;&#x5f0f;)/FactoryMethodPattern(&#x5de5;&#x5382;&#x65b9;&#x6cd5;&#x6a21;&#x5f0f;).xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:&#x521b;&#x5efa;&#x578b;&#x6a21;&#x5f0f;/SimpleFactoryPattern(&#x7b80;&#x5355;&#x5de5;&#x5382;&#x6a21;&#x5f0f;)/SimpleFactoryPattern/SimpleFactoryPattern.xcodeproj">
    </FileRef>
    <FileRef

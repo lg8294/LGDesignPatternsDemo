@@ -13,6 +13,16 @@
 		CB53E3FD239E4CED00610BC1 /* ConcreteProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E3F7239E4CED00610BC1 /* ConcreteProductA.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CB53E415239E502500610BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB53E411239E502500610BC1 /* FactoryMethodPattern(工厂方法模式).xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB53E407239E4FE000610BC1;
+			remoteInfo = "FactoryMethodPattern(工厂方法模式)";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		CB53E3DE239E4A9D00610BC1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,6 +45,7 @@
 		CB53E3F8239E4CED00610BC1 /* ConcreteProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteProductB.h; sourceTree = "<group>"; };
 		CB53E3F9239E4CED00610BC1 /* ConcreteProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteProductA.h; sourceTree = "<group>"; };
 		CB53E3FA239E4CED00610BC1 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		CB53E411239E502500610BC1 /* FactoryMethodPattern(工厂方法模式).xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "FactoryMethodPattern(工厂方法模式).xcodeproj"; path = "../../FactoryMethodPattern(工厂方法模式)/FactoryMethodPattern(工厂方法模式).xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 		CB53E3D7239E4A9D00610BC1 = {
 			isa = PBXGroup;
 			children = (
+				CB53E411239E502500610BC1 /* FactoryMethodPattern(工厂方法模式).xcodeproj */,
 				CB53E3F2239E4CED00610BC1 /* Lib */,
 				CB53E3E2239E4A9D00610BC1 /* SimpleFactoryPattern */,
 				CB53E3E1239E4A9D00610BC1 /* Products */,
@@ -93,6 +105,14 @@
 				CB53E3F6239E4CED00610BC1 /* ConcreteProductB.m */,
 			);
 			path = Product;
+			sourceTree = "<group>";
+		};
+		CB53E412239E502500610BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB53E416239E502500610BC1 /* FactoryMethodPattern(工厂方法模式) */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,12 +160,28 @@
 			mainGroup = CB53E3D7239E4A9D00610BC1;
 			productRefGroup = CB53E3E1239E4A9D00610BC1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CB53E412239E502500610BC1 /* Products */;
+					ProjectRef = CB53E411239E502500610BC1 /* FactoryMethodPattern(工厂方法模式).xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CB53E3DF239E4A9D00610BC1 /* SimpleFactoryPattern */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CB53E416239E502500610BC1 /* FactoryMethodPattern(工厂方法模式) */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "FactoryMethodPattern(工厂方法模式)";
+			remoteRef = CB53E415239E502500610BC1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB53E3DC239E4A9D00610BC1 /* Sources */ = {

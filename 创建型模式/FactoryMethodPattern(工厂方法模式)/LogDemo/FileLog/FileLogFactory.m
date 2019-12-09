@@ -7,7 +7,12 @@
 //
 
 #import "FileLogFactory.h"
+#import "FileLog.h"
 
 @implementation FileLogFactory
+
+- (nonnull id<ILog>)createLog {
+    return FileLog.new;
+}
 
 @end

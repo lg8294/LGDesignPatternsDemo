@@ -7,7 +7,12 @@
 //
 
 #import "DatabaseLogFactory.h"
+#import "DatabaseLog.h"
 
 @implementation DatabaseLogFactory
+
+- (nonnull id<ILog>)createLog {
+    return DatabaseLog.new;
+}
 
 @end

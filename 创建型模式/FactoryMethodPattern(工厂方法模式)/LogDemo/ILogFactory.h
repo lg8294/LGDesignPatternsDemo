@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol ILogFactory <NSObject>
 
-- (id<ILog>)createLog:
+- (id<ILog>)createLog;
 
 @end
 

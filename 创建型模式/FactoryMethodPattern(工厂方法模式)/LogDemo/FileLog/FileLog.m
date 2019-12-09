@@ -10,4 +10,8 @@
 
 @implementation FileLog
 
+- (void)writeLog:(nonnull NSString *)log {
+    NSLog(@"写日志到文件中：%@",log);
+}
+
 @end

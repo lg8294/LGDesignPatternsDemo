@@ -105,10 +105,6 @@
 		81A212101F6A7DA400B0EBD1 /* ConcreteDecoratorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A2120E1F6A7DA400B0EBD1 /* ConcreteDecoratorA.m */; };
 		81A212131F6A7E4100B0EBD1 /* ConcreteDecoratorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A212121F6A7E4100B0EBD1 /* ConcreteDecoratorB.m */; };
 		81A212141F6A7E4100B0EBD1 /* ConcreteDecoratorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A212121F6A7E4100B0EBD1 /* ConcreteDecoratorB.m */; };
-		CB53E3CD239A4E7900610BC1 /* FileLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E3CC239A4E7900610BC1 /* FileLog.m */; };
-		CB53E3D0239A4E8F00610BC1 /* DatabaseLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E3CF239A4E8F00610BC1 /* DatabaseLog.m */; };
-		CB53E3D3239A4EC700610BC1 /* FileLogFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E3D2239A4EC700610BC1 /* FileLogFactory.m */; };
-		CB53E3D6239A4EEB00610BC1 /* DatabaseLogFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E3D5239A4EEB00610BC1 /* DatabaseLogFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -227,16 +223,6 @@
 		81A2120E1F6A7DA400B0EBD1 /* ConcreteDecoratorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecoratorA.m; sourceTree = "<group>"; };
 		81A212111F6A7E4100B0EBD1 /* ConcreteDecoratorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecoratorB.h; sourceTree = "<group>"; };
 		81A212121F6A7E4100B0EBD1 /* ConcreteDecoratorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecoratorB.m; sourceTree = "<group>"; };
-		CB53E3C9239A4DEF00610BC1 /* ILogFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILogFactory.h; sourceTree = "<group>"; };
-		CB53E3CA239A4DF900610BC1 /* ILog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILog.h; sourceTree = "<group>"; };
-		CB53E3CB239A4E7900610BC1 /* FileLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLog.h; sourceTree = "<group>"; };
-		CB53E3CC239A4E7900610BC1 /* FileLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLog.m; sourceTree = "<group>"; };
-		CB53E3CE239A4E8F00610BC1 /* DatabaseLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseLog.h; sourceTree = "<group>"; };
-		CB53E3CF239A4E8F00610BC1 /* DatabaseLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseLog.m; sourceTree = "<group>"; };
-		CB53E3D1239A4EC700610BC1 /* FileLogFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLogFactory.h; sourceTree = "<group>"; };
-		CB53E3D2239A4EC700610BC1 /* FileLogFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLogFactory.m; sourceTree = "<group>"; };
-		CB53E3D4239A4EEB00610BC1 /* DatabaseLogFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseLogFactory.h; sourceTree = "<group>"; };
-		CB53E3D5239A4EEB00610BC1 /* DatabaseLogFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseLogFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,17 +464,6 @@
 			path = "SimpleFactoryPattern(简单工厂模式)";
 			sourceTree = "<group>";
 		};
-		CB53E3B6239A449200610BC1 /* FactoryMethodPattern(工厂方法模式) */ = {
-			isa = PBXGroup;
-			children = (
-				CB53E3C8239A4B8700610BC1 /* Log */,
-				CB53E3C7239A4B7F00610BC1 /* LogFactory */,
-				CB53E3C9239A4DEF00610BC1 /* ILogFactory.h */,
-				CB53E3CA239A4DF900610BC1 /* ILog.h */,
-			);
-			path = "FactoryMethodPattern(工厂方法模式)";
-			sourceTree = "<group>";
-		};
 		CB53E3B7239A44B300610BC1 /* AbstractFactoryPattern(抽象工厂模式) */ = {
 			isa = PBXGroup;
 			children = (
@@ -510,35 +485,12 @@
 			path = "原型模式";
 			sourceTree = "<group>";
 		};
-		CB53E3C7239A4B7F00610BC1 /* LogFactory */ = {
-			isa = PBXGroup;
-			children = (
-				CB53E3D1239A4EC700610BC1 /* FileLogFactory.h */,
-				CB53E3D2239A4EC700610BC1 /* FileLogFactory.m */,
-				CB53E3D4239A4EEB00610BC1 /* DatabaseLogFactory.h */,
-				CB53E3D5239A4EEB00610BC1 /* DatabaseLogFactory.m */,
-			);
-			path = LogFactory;
-			sourceTree = "<group>";
-		};
-		CB53E3C8239A4B8700610BC1 /* Log */ = {
-			isa = PBXGroup;
-			children = (
-				CB53E3CB239A4E7900610BC1 /* FileLog.h */,
-				CB53E3CC239A4E7900610BC1 /* FileLog.m */,
-				CB53E3CE239A4E8F00610BC1 /* DatabaseLog.h */,
-				CB53E3CF239A4E8F00610BC1 /* DatabaseLog.m */,
-			);
-			path = Log;
-			sourceTree = "<group>";
-		};
 		CD78F11D1FE7F0B70080C986 /* 创建型模式 */ = {
 			isa = PBXGroup;
 			children = (
 				CB53E3B9239A451900610BC1 /* 原型模式 */,
 				CB53E3B8239A44FE00610BC1 /* 单例模式 */,
 				CB53E3B7239A44B300610BC1 /* AbstractFactoryPattern(抽象工厂模式) */,
-				CB53E3B6239A449200610BC1 /* FactoryMethodPattern(工厂方法模式) */,
 				CB53E3B5239A446200610BC1 /* SimpleFactoryPattern(简单工厂模式) */,
 				81A211B71F6A308800B0EBD1 /* BuilderPattern(建造者模式) */,
 			);
@@ -749,7 +701,6 @@
 				81A211E91F6A70D100B0EBD1 /* Abstraction.m in Sources */,
 				810256E61F6F9849006E605C /* ConcreteStateB.m in Sources */,
 				819EB0881F6B7F2E006A4E97 /* UnsharedConcreteFlyweight.m in Sources */,
-				CB53E3D6239A4EEB00610BC1 /* DatabaseLogFactory.m in Sources */,
 				81A211FA1F6A799800B0EBD1 /* ConcreteImplementorB.m in Sources */,
 				819EB0841F6B7EA0006A4E97 /* ConcreteFlyweight.m in Sources */,
 				819EB0A51F6BB39B006A4E97 /* ConcreteCommand.m in Sources */,
@@ -762,7 +713,6 @@
 				819EB0801F6B7E11006A4E97 /* Flyweight.m in Sources */,
 				810256F71F6FA0DA006E605C /* ConcreteStrategyB.m in Sources */,
 				810256D01F6F6D3F006E605C /* Subjectt.m in Sources */,
-				CB53E3CD239A4E7900610BC1 /* FileLog.m in Sources */,
 				819EB0731F6B7BBA006A4E97 /* SubSystemB.m in Sources */,
 				819EB0BF1F6BC083006A4E97 /* ConcreteColleagueB.m in Sources */,
 				81A211B11F6A303800B0EBD1 /* main.m in Sources */,
@@ -772,7 +722,6 @@
 				81A212031F6A7C8E00B0EBD1 /* Componentt.m in Sources */,
 				81A211E01F6A636D00B0EBD1 /* Target.m in Sources */,
 				81A211BA1F6A30AD00B0EBD1 /* Director.m in Sources */,
-				CB53E3D3239A4EC700610BC1 /* FileLogFactory.m in Sources */,
 				819EB0B71F6BBA3E006A4E97 /* ConcreteColleagueA.m in Sources */,
 				819EB0B31F6BBA27006A4E97 /* Colleague.m in Sources */,
 				810256EB1F6FA08F006E605C /* Contextt.m in Sources */,
@@ -786,7 +735,6 @@
 				810256D21F6F6D3F006E605C /* ConcreteSubject.m in Sources */,
 				81A211F61F6A715E00B0EBD1 /* ConcreteImplementorA.m in Sources */,
 				819EB0BB1F6BBA4F006A4E97 /* ConcreteMediator.m in Sources */,
-				CB53E3D0239A4E8F00610BC1 /* DatabaseLog.m in Sources */,
 				819EB0A71F6BB39B006A4E97 /* Receiver.m in Sources */,
 				81A211DC1F6A62FD00B0EBD1 /* Adaptee.m in Sources */,
 				81A2120B1F6A7D1D00B0EBD1 /* Decorator.m in Sources */,
