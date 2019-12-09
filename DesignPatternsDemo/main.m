@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+// 工厂方法
+#import "DatabaseLogFactory.h"
+#import "FileLogFactory.h"
+
 // 建造者模式
 #import "Director.h"
 #import "ConcreteBuilderA.h"
@@ -63,6 +67,11 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         NSLog(@"Hello, World!");
         
+        /*
+         工厂方法模式
+         */
+         *
+        
         /* 建造者模式
         ConcreteBuilderA *builderA = [[ConcreteBuilderA alloc] init];
         Director *director = [[Director alloc] init];
@@ -70,6 +79,7 @@ int main(int argc, const char * argv[]) {
         Product *pdA = [director constuct];
         [pdA show];
          */
+         
         
         /* 对象适配器
         Adaptee *adaptee = [[Adaptee alloc] init];
@@ -176,7 +186,7 @@ int main(int argc, const char * argv[]) {
         [c request];
          */
         
-        /*策略模式 */
+        /*策略模式
         Strategy *s1 = [[ConcreteStrategyA alloc] init];
         Strategy *s2 = [[ConcreteStrategyB alloc] init];
         Contextt *cxt = [[Contextt alloc] init];
@@ -185,6 +195,7 @@ int main(int argc, const char * argv[]) {
         
         cxt.strategy = s2;
         [cxt algorithm];
+         */
     }
     return 0;
 }
