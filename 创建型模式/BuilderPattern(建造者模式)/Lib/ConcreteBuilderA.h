@@ -1,21 +1,23 @@
 //
-//  Builder.h
+//  ConcreteBuilder.h
 //  DesignPatternsDemo
 //
 //  Created by iOS on 2017/9/14.
 //  Copyright © 2017年 arrcencloud. All rights reserved.
 //
 
+
 #import <Foundation/Foundation.h>
+#import "Builder.h"
 
-// 抽象建造者
+// 具体建造者
 
-@protocol Builder <NSObject>
+@interface ConcreteBuilderA : NSObject <Builder>
 
 - (void)buildPartA;
 - (void)buildPartB;
 - (void)buildPartC;
 - (void)buildPartD;
-- (id)getResult;
+- (Product *)getResult;
 
 @end

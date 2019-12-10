@@ -12,10 +12,10 @@
 
 @interface Product : NSObject
 
-@property (nonatomic, strong) NSString *partA;
-@property (nonatomic, strong) NSString *partB;
-@property (nonatomic, strong) NSString *partC;
-@property (nonatomic, strong) NSString *partD;
+@property (nonatomic, copy) NSString *partA;
+@property (nonatomic, copy) NSString *partB;
+@property (nonatomic, copy) NSString *partC;
+@property (nonatomic, copy) NSString *partD;
 
 - (void)show;
 

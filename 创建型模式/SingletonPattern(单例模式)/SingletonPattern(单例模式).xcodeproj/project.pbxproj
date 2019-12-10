@@ -7,24 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB53E3E4239E4A9D00610BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E3E3239E4A9D00610BC1 /* main.m */; };
-		CB53E3FB239E4CED00610BC1 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E3F4239E4CED00610BC1 /* Factory.m */; };
-		CB53E3FC239E4CED00610BC1 /* ConcreteProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E3F6239E4CED00610BC1 /* ConcreteProductB.m */; };
-		CB53E3FD239E4CED00610BC1 /* ConcreteProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E3F7239E4CED00610BC1 /* ConcreteProductA.m */; };
+		CB53E4D2239F4B5200610BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E4D1239F4B5200610BC1 /* main.m */; };
+		CB53E4E1239F4B9500610BC1 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E4E0239F4B9500610BC1 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CB53E415239E502500610BC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB53E411239E502500610BC1 /* FactoryMethodPattern(工厂方法模式).xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CB53E407239E4FE000610BC1;
-			remoteInfo = "FactoryMethodPattern(工厂方法模式)";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		CB53E3DE239E4A9D00610BC1 /* CopyFiles */ = {
+		CB53E4CC239F4B5200610BC1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -36,20 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CB53E3E0239E4A9D00610BC1 /* SimpleFactoryPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleFactoryPattern; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB53E3E3239E4A9D00610BC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CB53E3F3239E4CED00610BC1 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
-		CB53E3F4239E4CED00610BC1 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
-		CB53E3F6239E4CED00610BC1 /* ConcreteProductB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteProductB.m; sourceTree = "<group>"; };
-		CB53E3F7239E4CED00610BC1 /* ConcreteProductA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteProductA.m; sourceTree = "<group>"; };
-		CB53E3F8239E4CED00610BC1 /* ConcreteProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteProductB.h; sourceTree = "<group>"; };
-		CB53E3F9239E4CED00610BC1 /* ConcreteProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteProductA.h; sourceTree = "<group>"; };
-		CB53E3FA239E4CED00610BC1 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
-		CB53E411239E502500610BC1 /* FactoryMethodPattern(工厂方法模式).xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "FactoryMethodPattern(工厂方法模式).xcodeproj"; path = "../../FactoryMethodPattern(工厂方法模式)/FactoryMethodPattern(工厂方法模式).xcodeproj"; sourceTree = "<group>"; };
+		CB53E4CE239F4B5200610BC1 /* SingletonPattern(单例模式) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SingletonPattern(单例模式)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB53E4D1239F4B5200610BC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB53E4DF239F4B9500610BC1 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		CB53E4E0239F4B9500610BC1 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CB53E3DD239E4A9D00610BC1 /* Frameworks */ = {
+		CB53E4CB239F4B5200610BC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,97 +41,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB53E3D7239E4A9D00610BC1 = {
+		CB53E4C5239F4B5200610BC1 = {
 			isa = PBXGroup;
 			children = (
-				CB53E411239E502500610BC1 /* FactoryMethodPattern(工厂方法模式).xcodeproj */,
-				CB53E3F2239E4CED00610BC1 /* Lib */,
-				CB53E3E2239E4A9D00610BC1 /* SimpleFactoryPattern */,
-				CB53E3E1239E4A9D00610BC1 /* Products */,
+				CB53E4DE239F4B6F00610BC1 /* Lib */,
+				CB53E4D0239F4B5200610BC1 /* SingletonPattern(单例模式) */,
+				CB53E4CF239F4B5200610BC1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CB53E3E1239E4A9D00610BC1 /* Products */ = {
+		CB53E4CF239F4B5200610BC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB53E3E0239E4A9D00610BC1 /* SimpleFactoryPattern */,
+				CB53E4CE239F4B5200610BC1 /* SingletonPattern(单例模式) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB53E3E2239E4A9D00610BC1 /* SimpleFactoryPattern */ = {
+		CB53E4D0239F4B5200610BC1 /* SingletonPattern(单例模式) */ = {
 			isa = PBXGroup;
 			children = (
-				CB53E3E3239E4A9D00610BC1 /* main.m */,
+				CB53E4D1239F4B5200610BC1 /* main.m */,
 			);
-			path = SimpleFactoryPattern;
+			path = "SingletonPattern(单例模式)";
 			sourceTree = "<group>";
 		};
-		CB53E3F2239E4CED00610BC1 /* Lib */ = {
+		CB53E4DE239F4B6F00610BC1 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				CB53E3F3239E4CED00610BC1 /* Product.h */,
-				CB53E3FA239E4CED00610BC1 /* Factory.h */,
-				CB53E3F4239E4CED00610BC1 /* Factory.m */,
-				CB53E3F5239E4CED00610BC1 /* Product */,
+				CB53E4DF239F4B9500610BC1 /* Singleton.h */,
+				CB53E4E0239F4B9500610BC1 /* Singleton.m */,
 			);
 			path = Lib;
-			sourceTree = "<group>";
-		};
-		CB53E3F5239E4CED00610BC1 /* Product */ = {
-			isa = PBXGroup;
-			children = (
-				CB53E3F9239E4CED00610BC1 /* ConcreteProductA.h */,
-				CB53E3F7239E4CED00610BC1 /* ConcreteProductA.m */,
-				CB53E3F8239E4CED00610BC1 /* ConcreteProductB.h */,
-				CB53E3F6239E4CED00610BC1 /* ConcreteProductB.m */,
-			);
-			path = Product;
-			sourceTree = "<group>";
-		};
-		CB53E412239E502500610BC1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CB53E416239E502500610BC1 /* FactoryMethodPattern(工厂方法模式) */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB53E3DF239E4A9D00610BC1 /* SimpleFactoryPattern */ = {
+		CB53E4CD239F4B5200610BC1 /* SingletonPattern(单例模式) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB53E3E7239E4A9D00610BC1 /* Build configuration list for PBXNativeTarget "SimpleFactoryPattern" */;
+			buildConfigurationList = CB53E4D5239F4B5200610BC1 /* Build configuration list for PBXNativeTarget "SingletonPattern(单例模式)" */;
 			buildPhases = (
-				CB53E3DC239E4A9D00610BC1 /* Sources */,
-				CB53E3DD239E4A9D00610BC1 /* Frameworks */,
-				CB53E3DE239E4A9D00610BC1 /* CopyFiles */,
+				CB53E4CA239F4B5200610BC1 /* Sources */,
+				CB53E4CB239F4B5200610BC1 /* Frameworks */,
+				CB53E4CC239F4B5200610BC1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SimpleFactoryPattern;
-			productName = SimpleFactoryPattern;
-			productReference = CB53E3E0239E4A9D00610BC1 /* SimpleFactoryPattern */;
+			name = "SingletonPattern(单例模式)";
+			productName = "SingletonPattern(单例模式)";
+			productReference = CB53E4CE239F4B5200610BC1 /* SingletonPattern(单例模式) */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CB53E3D8239E4A9D00610BC1 /* Project object */ = {
+		CB53E4C6239F4B5200610BC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = lg;
 				TargetAttributes = {
-					CB53E3DF239E4A9D00610BC1 = {
+					CB53E4CD239F4B5200610BC1 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = CB53E3DB239E4A9D00610BC1 /* Build configuration list for PBXProject "SimpleFactoryPattern" */;
+			buildConfigurationList = CB53E4C9239F4B5200610BC1 /* Build configuration list for PBXProject "SingletonPattern(单例模式)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,48 +117,30 @@
 				en,
 				Base,
 			);
-			mainGroup = CB53E3D7239E4A9D00610BC1;
-			productRefGroup = CB53E3E1239E4A9D00610BC1 /* Products */;
+			mainGroup = CB53E4C5239F4B5200610BC1;
+			productRefGroup = CB53E4CF239F4B5200610BC1 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CB53E412239E502500610BC1 /* Products */;
-					ProjectRef = CB53E411239E502500610BC1 /* FactoryMethodPattern(工厂方法模式).xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				CB53E3DF239E4A9D00610BC1 /* SimpleFactoryPattern */,
+				CB53E4CD239F4B5200610BC1 /* SingletonPattern(单例模式) */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		CB53E416239E502500610BC1 /* FactoryMethodPattern(工厂方法模式) */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "FactoryMethodPattern(工厂方法模式)";
-			remoteRef = CB53E415239E502500610BC1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		CB53E3DC239E4A9D00610BC1 /* Sources */ = {
+		CB53E4CA239F4B5200610BC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB53E3FB239E4CED00610BC1 /* Factory.m in Sources */,
-				CB53E3FC239E4CED00610BC1 /* ConcreteProductB.m in Sources */,
-				CB53E3E4239E4A9D00610BC1 /* main.m in Sources */,
-				CB53E3FD239E4CED00610BC1 /* ConcreteProductA.m in Sources */,
+				CB53E4D2239F4B5200610BC1 /* main.m in Sources */,
+				CB53E4E1239F4B9500610BC1 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CB53E3E5239E4A9D00610BC1 /* Debug */ = {
+		CB53E4D3239F4B5200610BC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +198,7 @@
 			};
 			name = Debug;
 		};
-		CB53E3E6239E4A9D00610BC1 /* Release */ = {
+		CB53E4D4239F4B5200610BC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -307,7 +249,7 @@
 			};
 			name = Release;
 		};
-		CB53E3E8239E4A9D00610BC1 /* Debug */ = {
+		CB53E4D6239F4B5200610BC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -317,7 +259,7 @@
 			};
 			name = Debug;
 		};
-		CB53E3E9239E4A9D00610BC1 /* Release */ = {
+		CB53E4D7239F4B5200610BC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -330,25 +272,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB53E3DB239E4A9D00610BC1 /* Build configuration list for PBXProject "SimpleFactoryPattern" */ = {
+		CB53E4C9239F4B5200610BC1 /* Build configuration list for PBXProject "SingletonPattern(单例模式)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB53E3E5239E4A9D00610BC1 /* Debug */,
-				CB53E3E6239E4A9D00610BC1 /* Release */,
+				CB53E4D3239F4B5200610BC1 /* Debug */,
+				CB53E4D4239F4B5200610BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB53E3E7239E4A9D00610BC1 /* Build configuration list for PBXNativeTarget "SimpleFactoryPattern" */ = {
+		CB53E4D5239F4B5200610BC1 /* Build configuration list for PBXNativeTarget "SingletonPattern(单例模式)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB53E3E8239E4A9D00610BC1 /* Debug */,
-				CB53E3E9239E4A9D00610BC1 /* Release */,
+				CB53E4D6239F4B5200610BC1 /* Debug */,
+				CB53E4D7239F4B5200610BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CB53E3D8239E4A9D00610BC1 /* Project object */;
+	rootObject = CB53E4C6239F4B5200610BC1 /* Project object */;
 }

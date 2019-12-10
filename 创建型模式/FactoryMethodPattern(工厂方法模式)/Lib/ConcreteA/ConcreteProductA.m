@@ -6,11 +6,11 @@
 //  Copyright © 2019 lg. All rights reserved.
 //
 
-#import "ConcreteProduct.h"
+#import "ConcreteProductA.h"
 
-@implementation ConcreteProduct
+@implementation ConcreteProductA
 
 - (void)use {
-    NSLog(@"正在使用 ConcreteProduct");
+    NSLog(@"正在使用 %@", self.className);
 }
 @end

@@ -1,9 +1,9 @@
 //
-//  ConcreteProductA.h
-//  DesignPatternsDemo
+//  ConcreteProduct.h
+//  FactoryMethodPattern(工厂方法模式)
 //
-//  Created by lg on 2019/12/6.
-//  Copyright © 2019 arrcencloud. All rights reserved.
+//  Created by lg on 2019/12/9.
+//  Copyright © 2019 lg. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

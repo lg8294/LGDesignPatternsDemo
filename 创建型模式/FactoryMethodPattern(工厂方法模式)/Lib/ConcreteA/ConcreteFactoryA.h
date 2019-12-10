@@ -1,5 +1,5 @@
 //
-//  ConcreteProduct.h
+//  ConcreteFactoryA.h
 //  FactoryMethodPattern(工厂方法模式)
 //
 //  Created by lg on 2019/12/9.
@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Product.h"
+#import "Factory.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ConcreteProduct : NSObject<Product>
+@interface ConcreteFactoryA : NSObject<Factory>
 
 @end
 

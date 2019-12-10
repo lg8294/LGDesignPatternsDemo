@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:DesignPatternsDemo.xcodeproj">
+      location = "self:BuilderPattern(&#x5efa;&#x9020;&#x8005;&#x6a21;&#x5f0f;).xcodeproj">
    </FileRef>
 </Workspace>

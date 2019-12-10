@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ConcreteFactory.h"
+#import "ConcreteFactoryA.h"
+#import "ConcreteFactoryB.h"
 
 #import "ILogFactory.h"
 #import "FileLogFactory.h"
@@ -26,11 +27,13 @@ void LogDemo() {
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        id<Factory> factory = [[ConcreteFactory alloc] init];
-        
+        id<Factory> factory = [[ConcreteFactoryA alloc] init];
         id<Product> product = [factory factoryMethod];
+        [product use];//Log:正在使用 ConcreteProductA
         
-        [product use];//Log:正在使用 ConcreteProduct
+        factory = [[ConcreteFactoryB alloc] init];
+        product = [factory factoryMethod];
+        [product use];//Log:正在使用 ConcreteProductB
         
 //        LogDemo();
     }
