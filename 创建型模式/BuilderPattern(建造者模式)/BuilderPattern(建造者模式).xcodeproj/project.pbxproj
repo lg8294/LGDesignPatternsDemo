@@ -12,6 +12,7 @@
 		CB53E49F239F29D500610BC1 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E49A239F29D500610BC1 /* Product.m */; };
 		CB53E4A0239F29D500610BC1 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E49C239F29D500610BC1 /* Director.m */; };
 		CB53E4B0239F2DCB00610BC1 /* ConcreteBuilderB.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E4AF239F2DCB00610BC1 /* ConcreteBuilderB.m */; };
+		CB53E51423A0892900610BC1 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53E51323A0892900610BC1 /* Builder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,11 +34,12 @@
 		CB53E498239F29D500610BC1 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		CB53E499239F29D500610BC1 /* ConcreteBuilderA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcreteBuilderA.m; path = ../ConcreteBuilderA.m; sourceTree = "<group>"; };
 		CB53E49A239F29D500610BC1 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
-		CB53E49B239F29D500610BC1 /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
 		CB53E49C239F29D500610BC1 /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
 		CB53E49D239F29D500610BC1 /* ConcreteBuilderA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteBuilderA.h; path = ../ConcreteBuilderA.h; sourceTree = "<group>"; };
 		CB53E4AE239F2DCB00610BC1 /* ConcreteBuilderB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteBuilderB.h; sourceTree = "<group>"; };
 		CB53E4AF239F2DCB00610BC1 /* ConcreteBuilderB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteBuilderB.m; sourceTree = "<group>"; };
+		CB53E51223A0892900610BC1 /* Builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		CB53E51323A0892900610BC1 /* Builder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +85,8 @@
 				CB53E49C239F29D500610BC1 /* Director.m */,
 				CB53E498239F29D500610BC1 /* Product.h */,
 				CB53E49A239F29D500610BC1 /* Product.m */,
-				CB53E49B239F29D500610BC1 /* Builder.h */,
+				CB53E51223A0892900610BC1 /* Builder.h */,
+				CB53E51323A0892900610BC1 /* Builder.m */,
 				CB53E4AD239F2D9A00610BC1 /* Builders */,
 			);
 			path = Lib;
@@ -160,6 +163,7 @@
 				CB53E49F239F29D500610BC1 /* Product.m in Sources */,
 				CB53E4B0239F2DCB00610BC1 /* ConcreteBuilderB.m in Sources */,
 				CB53E4A0239F29D500610BC1 /* Director.m in Sources */,
+				CB53E51423A0892900610BC1 /* Builder.m in Sources */,
 				CB53E49E239F29D500610BC1 /* ConcreteBuilderA.m in Sources */,
 				CB53E475239F297B00610BC1 /* main.m in Sources */,
 			);

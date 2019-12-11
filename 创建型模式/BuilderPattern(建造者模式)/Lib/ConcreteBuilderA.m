@@ -8,18 +8,7 @@
 
 #import "ConcreteBuilderA.h"
 
-@implementation ConcreteBuilderA {
-    Product *_pd;
-}
-
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        _pd = [[Product alloc] init];
-    }
-    return self;
-}
+@implementation ConcreteBuilderA
 
 - (void)buildPartA {
     NSLog(@"建造 A 部分");
@@ -41,7 +30,4 @@
     _pd.partD = @"A-d style";
 }
 
-- (Product *)getResult {
-    return _pd;
-}
 @end

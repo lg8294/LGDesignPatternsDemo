@@ -11,13 +11,13 @@
 #import "ConcreteBuilderA.h"
 #import "ConcreteBuilderB.h"
 
-void clientDemo(id<Builder> builder);
+void clientDemo(Builder *builder);
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         
-        id<Builder> builder = ConcreteBuilderA.new;
+        Builder *builder = ConcreteBuilderA.new;
         clientDemo(builder);
         
         builder = ConcreteBuilderB.new;
@@ -26,7 +26,7 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-void clientDemo(id<Builder> builder) {
+void clientDemo(Builder *builder) {
     Director *director = Director.new;
     [director setPbuilder:builder];
     

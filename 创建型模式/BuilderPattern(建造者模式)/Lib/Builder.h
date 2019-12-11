@@ -1,22 +1,30 @@
 //
 //  Builder.h
-//  DesignPatternsDemo
+//  BuilderPattern(建造者模式)
 //
-//  Created by iOS on 2017/9/14.
-//  Copyright © 2017年 arrcencloud. All rights reserved.
+//  Created by lg on 2019/12/11.
+//  Copyright © 2019 lg. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "Product.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 // 抽象建造者
 
-@protocol Builder <NSObject>
+@interface Builder : NSObject {
+    @protected
+    Product *_pd;
+}
 
 - (void)buildPartA;
 - (void)buildPartB;
 - (void)buildPartC;
 - (void)buildPartD;
+
 - (Product *)getResult;
 
 @end
+
+NS_ASSUME_NONNULL_END

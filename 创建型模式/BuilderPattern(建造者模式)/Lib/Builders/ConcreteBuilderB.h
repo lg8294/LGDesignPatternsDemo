@@ -6,12 +6,11 @@
 //  Copyright © 2019 lg. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "Builder.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ConcreteBuilderB : NSObject<Builder>
+@interface ConcreteBuilderB : Builder
 
 @end
 

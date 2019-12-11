@@ -7,17 +7,10 @@
 //
 
 
-#import <Foundation/Foundation.h>
 #import "Builder.h"
 
 // 具体建造者
 
-@interface ConcreteBuilderA : NSObject <Builder>
-
-- (void)buildPartA;
-- (void)buildPartB;
-- (void)buildPartC;
-- (void)buildPartD;
-- (Product *)getResult;
+@interface ConcreteBuilderA : Builder
 
 @end

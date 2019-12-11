@@ -8,13 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "Builder.h"
-#import "Product.h"
 
 // 指挥者
 
 @interface Director : NSObject
 
-@property (nonatomic, strong) id<Builder> pbuilder;
+@property (nonatomic, strong) Builder *pbuilder;
 
 - (Product *)constuct;
 
