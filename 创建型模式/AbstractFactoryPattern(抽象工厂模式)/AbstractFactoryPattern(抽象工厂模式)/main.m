@@ -10,23 +10,23 @@
 #import "ConcreteFactory1.h"
 #import "ConcreteFactory2.h"
 
-void clientDemo(AbstractFactory *factory);
+void client(AbstractFactory *factory) {
+    AbstractProductA *productA = [factory createProductA];
+    AbstractProductB *productB = [factory createProductB];
+    [productA useA];//Log:正在使用系列 1 或 2，A产品;
+    [productB useB];//Log:正在使用系列 1 或 2，B产品;
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         AbstractFactory *factory = ConcreteFactory1.new;
-        clientDemo(factory);//Log:正在使用系列 1，A产品;正在使用系列 1，B产品;
+        client(factory);//Log:正在使用系列 1;
         
         factory = ConcreteFactory2.new;
-        clientDemo(factory);//Log:正在使用系列 2，A产品;正在使用系列 2，B产品;
+        client(factory);//Log:正在使用系列 2;
     }
     return 0;
 }
 
-void clientDemo(AbstractFactory *factory) {
-    AbstractProductA *productA = [factory createProductA];
-    AbstractProductB *productB = [factory createProductB];
-    [productA useA];
-    [productB useB];
-}
+

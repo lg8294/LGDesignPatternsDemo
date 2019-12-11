@@ -9,17 +9,19 @@
 #import <Foundation/Foundation.h>
 #import "Factory.h"
 
+void client(Factory *factory) {
+    id<Product> product = [factory createProductWithType:ProductTypeA];
+    [product use];//Log:正在使用 A 产品
+    
+    product = [factory createProductWithType:ProductTypeB];
+    [product use];//Log:正在使用 B 产品
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        Factory *factor = Factory.new;
-        
-        id<Product> product = [factor createProductWithType:ProductTypeA];
-        [product use];//Log:正在使用 A 产品
-        
-        product = [factor createProductWithType:ProductTypeB];
-        [product use];//Log:正在使用 B 产品
-        
+        Factory *factory = Factory.new;
+        client(factory);
     }
     return 0;
 }

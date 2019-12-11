@@ -11,25 +11,25 @@
 #import "ConcreteBuilderA.h"
 #import "ConcreteBuilderB.h"
 
-void clientDemo(Builder *builder);
-
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        
-        Builder *builder = ConcreteBuilderA.new;
-        clientDemo(builder);
-        
-        builder = ConcreteBuilderB.new;
-        clientDemo(builder);
-    }
-    return 0;
-}
-
-void clientDemo(Builder *builder) {
+void client(Builder *builder) {
     Director *director = Director.new;
     [director setPbuilder:builder];
     
     Product *product = [director constuct];
     [product show];
 }
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        
+        Builder *builder = ConcreteBuilderA.new;
+        client(builder);
+        
+        builder = ConcreteBuilderB.new;
+        client(builder);
+    }
+    return 0;
+}
+
+

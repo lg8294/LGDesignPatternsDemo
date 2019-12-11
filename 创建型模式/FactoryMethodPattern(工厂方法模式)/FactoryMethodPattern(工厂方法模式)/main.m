@@ -14,26 +14,32 @@
 #import "FileLogFactory.h"
 #import "DatabaseLogFactory.h"
 
+void logClient(id<ILogFactory>factory) {
+    id<ILog> log = [factory createLog];
+    [log writeLog:@"test"];//Log:写日志到文件或数据库中
+}
+
 void LogDemo() {
     id<ILogFactory> factory = FileLogFactory.new;
-    id<ILog> log = [factory createLog];
-    [log writeLog:@"test"];//Log:写日志到文件中：test
+    logClient(factory);//Log:写日志到文件中：test
     
     factory = DatabaseLogFactory.new;
-    log = [factory createLog];
-    [log writeLog:@"test"];//Log:写日志到数据库中：test
+    logClient(factory);//Log:写日志到数据库中：test
+}
+
+void client(id<Factory>factory) {
+    id<Product> product = [factory createProduct];
+    [product use];//Log:正在使用 ConcreteProductB or ConcreteProductA
 }
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         id<Factory> factory = [[ConcreteFactoryA alloc] init];
-        id<Product> product = [factory factoryMethod];
-        [product use];//Log:正在使用 ConcreteProductA
+        client(factory);//Log:正在使用 ConcreteProductA
         
-        factory = [[ConcreteFactoryB alloc] init];
-        product = [factory factoryMethod];
-        [product use];//Log:正在使用 ConcreteProductB
+        factory = ConcreteFactoryB.new;
+        client(factory);//Log:正在使用 ConcreteProductB
         
 //        LogDemo();
     }

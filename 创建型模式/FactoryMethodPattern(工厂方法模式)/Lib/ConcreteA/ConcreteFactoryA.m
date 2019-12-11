@@ -11,7 +11,7 @@
 
 @implementation ConcreteFactoryA
 
-- (id<Product>)factoryMethod {
+- (id<Product>)createProduct {
     return ConcreteProductA.new;
 }
 @end

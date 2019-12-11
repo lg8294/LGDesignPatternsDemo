@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol Factory <NSObject>
 
-- (id<Product>)factoryMethod;
+- (id<Product>)createProduct;
 
 @end
 
